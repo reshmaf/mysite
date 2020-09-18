@@ -1,0 +1,242 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #07588a;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 20px;
+}
+h2{
+  color: #07588a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #07588a;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+p{
+  line-height: 2;
+  color: #6ac1b8;
+}
+hr{
+  border: dotted #bfe9db 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.topnav{
+    background-color: #bfe9db;
+    overflow: hidden;
+    padding-left: 50px;
+}
+.topnav a{
+  float: left;
+  color: #07588a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #e1f6f4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6ac1b8;
+  color: white;
+}
+.top-container{
+  background-color: #e1f6f4;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.middle-container{
+  background-color: #e1f6f4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bottom-container{
+  background-color: #6ac1b8;
+  padding: 20px 0 20px 0;
+}
+a{
+    color: #07588a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 50px 10px auto;
+    text-decoration: none;
+}
+a:hover{
+    color: #e1f6f4;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 70px;
+}
+.robot-img{
+  position: relative;
+  height:400px;
+  top: 50px;
+  border-radius: 150px;
+}
+.skillset{
+    margin: 50px auto 0 auto;
+    width: 400px;
+    background-color: #bfe9db;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #6ac1b8;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #e1f6f4;
+    border-radius: 5px;
+    border: 0.25px solid #bfe9db;
+
+}
+.wdes{
+    width: 90%;
+    background-color: #07588a;
+}
+.wde{
+    width: 80%;
+    background-color: #6ac1b8;
+}
+.java{
+    width:90%;
+    background-color:  #6ac1b8;
+}
+.c{
+    width:100%;
+    background-color: #07588a;
+}
+.phy{
+    width: 60%;
+    background-color: #07588a;
+}
+.rpa{
+    width: 60%;
+    background-color: #6ac1b8;
+}
+.ai{
+    width: 50%;
+    background-color: #07588a;
+}
+.mg{
+    width:100%;
+    background-color:  #6ac1b8;
+}
+.ps{
+      width:90%;
+    background-color: #07588a;
+}
+.com{
+     width: 90%;
+    background-color: #6ac1b8;
+}
+.ad{
+     width:80%;
+    background-color: #07588a;
+}
+.tm{
+    width: 80%;
+    background-color: #6ac1b8;
+}
+.interest{
+  margin: 50px auto 0 auto;
+  width: 400px;
+  background-color: #bfe9db;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #6ac1b8;
+}
+.skill{
+    text-align: center;
+    padding: 50px;
+    color: #e1f6f4;
+    font-family: cursive;
+    background-color: #808080;
+    border-radius: 70%;
+    border: 0.25px solid #ccc;
+
+}
+.web{
+    width: 20%;
+    background-color: #07588a;
+}
+.rpad{
+    float: right;
+    margin-top: -320px;
+    margin-left: 100px;
+    width: 20%;
+    background-color: #6ac1b8;
+}
+.aid{
+    margin-top: 30px;
+    width:20%;
+    background-color:   #6ac1b8;
+}
+.j{
+    float: right;
+    margin-top: 180px;
+    width:20%;
+    background-color: #07588a;
+}
+.rd{
+    width: 20%;
+    background-color:  #6ac1b8;
+}
+.dr{
+    float: right;
+    margin-top: -127px;
+    width: 20%;
+    background-color: #6ac1b8;
+}
+.pb{
+    margin-top: 30px;
+    margin-left: 30%;
+    width:20%;
+    background-color: #07588a;
+}
+
+.project-row{
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.contact-message{
+  width:60%;
+  margin: 30px auto 0 auto;
+}
+.copyright{
+  color: #e1f6f4;
+  font-size: 0.75rem;
+  padding: 20px 10px;
+}
+@media only screen and (max-width:900px) {
+    .flex-container{
+      flex-direction: column;
+    }
+}

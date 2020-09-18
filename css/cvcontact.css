@@ -1,0 +1,84 @@
+body{
+    background-image: url('../images/cv666.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom-left;
+}
+h1{
+    font-size: 50px;
+    text-align: right;
+    font-family: serif;
+    margin-right: 150px;
+    margin-top: 0;
+}
+form{
+    margin: 50px auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 700px;
+}
+div{
+    margin-top: 20px;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+input,textarea{
+    font-size: 20px;
+    font-family: cursive;
+    width: 350px;
+    background: rgba(189,189,189,0.2);
+    color: white;
+    vertical-align: top;
+}
+.button1{
+    text-decoration: none;
+    border: none;
+    color:white;
+    font-weight: 100;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.sidenav{
+    display: none;
+    position: fixed;
+    height: 90%;
+    width: 250px;
+    z-index: 10;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    background-color: #bfe9db;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+span{
+    color: #b1d7e1;
+}
+.sidenav a{
+    padding: 30px 0px 0px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: block;
+}
+.sidenav a:hover{
+    color: black;
+}
+.sidenav .closebtn{
+    position: absolute;
+    color: black;
+    top: 0;
+    font-size: 40px;
+    margin-left: 150px;
+}
